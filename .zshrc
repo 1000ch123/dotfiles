@@ -214,5 +214,5 @@ source /usr/local/share/zsh/site-functions/aws_zsh_completer.sh
 #
 # Load completion files from the ~/.zsh directory.
 zstyle ':completion:*:*:git:*' script ~/.zsh/git-completion.bash
-fpath=(~/.zsh /usr/local/share/zsh/site-functions /usr/share/zsh/site-functions /usr/share/zsh/5.7.1/functions)
+fpath=(~/.zsh /usr/local/share/zsh/site-functions /usr/share/zsh/site-functions /usr/share/zsh/5.8/functions)
 autoload -Uz compinit && compinit
